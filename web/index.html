@@ -39,28 +39,17 @@
 </head>
 <body>
   <!--FIREBASE-->
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-storage.js"></script>
+  <script src="service-worker/firebasejs/7.13.1/firebase/firebase-worker.js"></script>
+  <script src="./firebase-config.js"></script>
 
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
-
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-      https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
-
-  <script>
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "firebase/app";
-    import { getAnalytics } from "firebase/analytics";
+  <script type="module">
     // Your web app's Firebase configuration
-    var firebaseConfig = {
-      apiKey: "AIzaSyAeXVovGmyxbOlcWjLnHvwSMSXnugnbHiA",
-      authDomain: "fluttermetatags.firebaseapp.com",
-      projectId: "fluttermetatags",
-      storageBucket: "fluttermetatags.appspot.com",
-      messagingSenderId: "853137861638",
-      appId: "1:853137861638:web:77a17c55de2df553f36787",
-      measurementId: "G-7FCF7L01XR"
-    };
+    import { firebaseConfig } from './firebase-config.js';
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
