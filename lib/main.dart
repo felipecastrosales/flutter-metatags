@@ -9,9 +9,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Flutter Meta Tags',
-      home: Container(),
+      home: Scaffold(
+        body: Center(
+          child: Text(
+            'There is no content, it\'s just test.\nThanks.',
+            textAlign: TextAlign.center,
+          ),
+        ),
+      ),
     );
   }
 }
