@@ -1,16 +1,20 @@
-# flutter_metatags
+<h1 align="center"><a href="https://fluttermetatags.web.app/#/">Flutter Meta Tags</a></h1>
 
-A new Flutter project.
+---
 
-## Getting Started
+   <p align="center">
+      A small project to try out how to implement meta tags with Flutter Web, in addition to their powers.<br>
+      For this, I hosted on Firebase and did some tests:
+  </p>
+  
+   <p align="center">
+      <img alt="Demo" title="Showcase" src=".github/showcase.png" />
+   </p>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+   <div align="center">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+   [![Linkedin Badge](https://img.shields.io/badge/-Felipe%20Sales-292929?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipecastrosales/)](https://www.linkedin.com/in/felipecastrosales/)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   </div>
